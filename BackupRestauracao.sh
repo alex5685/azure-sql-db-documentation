@@ -1,0 +1,1 @@
+az sql midb restore --dest-name restauracao-db --name meu-banco --resource-group meu-grupo-banco --time "2023-10-10T05:34:22"

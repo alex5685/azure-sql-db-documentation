@@ -1,0 +1,20 @@
+
+#### **`docs/best-practices.md`**
+```markdown
+# Práticas Recomendadas para Azure SQL
+
+1. **Segurança**  
+   - Nunca expor senhas ou chaves de acesso em repositórios públicos.  
+   - Ativar **Auditoria** e **Criptografia Transparente de Dados (TDE)**.  
+
+2. **Backups**  
+   - Verificar configurações de backup automático (Azure mantém backups por 7 dias por padrão).  
+   - Testar restaurações periódicas para garantir integridade dos backups.  
+
+3. **Desempenho**  
+   - Monitorar métricas de CPU, memória e armazenamento via **Azure Monitor**.  
+   - Escalar recursos (VCore ou armazenamento) conforme a demanda.  
+
+4. **Documentação**  
+   - Manter o README sempre atualizado com mudanças na infraestrutura.  
+   - Usar versionamento (tags) para controlar atualizações no repositório.

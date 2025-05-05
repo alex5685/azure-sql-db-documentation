@@ -1,0 +1,9 @@
+azure-sql-db-documentation/
+│
+├── README.md               # Documentação principal
+├── /images                 # Capturas de tela (opcional)
+│   └── azure-sql-setup.png # Exemplo de imagem
+├── /docs                   # Arquivos adicionais (opcional)
+│   └── azure-cli-commands.md  # Comandos úteis
+│   └── best-practices.md   # Práticas recomendadas
+└── CONTRIBUTING.md         # Como contribuir (opcional)
